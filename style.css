@@ -1,0 +1,109 @@
+body{
+	margin: 0pt;
+	background-color: #EEE
+}
+
+div.container{
+	margin: auto;
+	width: 100%;
+	padding: 0pt;
+}
+
+div.head{
+	margin: auto;
+	width: 100%;
+	min-height: 50pt;
+	padding: 30pt;
+	text-align: center;
+}
+div.content{
+	margin: auto;
+	width: 900pt;
+	min-height: 300pt;
+	padding: 20pt;
+	background-color: #FFF;
+	align-content: center;
+	text-align: justify-all;
+}
+
+div.menu{
+	margin-top: 30pt;
+	margin: auto;
+	
+
+	width: 240pt;
+	height: 30pt;
+	background-color: #FFF;
+
+}
+
+div.project{
+	margin: auto;
+	min-width: 100pt;
+	min-height: 70pt;
+	background-color: #CBF3F0;
+	padding: 15pt;
+	float: left;
+	border-bottom: 5pt solid #2EC4B6;
+}
+
+div.project:hover{
+	background-color: #FFBF69;
+	border-bottom: 5pt solid #FF9F1C;
+	-webkit-transition:0.25s ease all;
+}
+
+div.javascript{
+	border-bottom: 5pt solid #ffd600;
+}
+
+div.cplusplus{
+	border-bottom: 5pt solid #2962ff;
+}
+
+div.java{
+	border-bottom: 5pt solid #d50000;
+}
+
+div.python{
+	border-bottom: 5pt solid #1a237e;
+}
+
+div.html{
+	border-bottom: 5pt solid #dd2c00;
+}
+
+ul{
+	list-style: none;
+	margin: 0pt;
+	padding: 0pt;
+}
+
+li{
+	position: relative;
+
+	background-color: #011936;
+	text-align: center;
+	display: block;
+	width: 60pt;
+	padding: 10pt;
+	float: left;
+}
+
+li:hover{
+	background-color: #465362;
+	border-bottom: 2pt solid #FF9F1C;
+	-webkit-transition:0.25s ease all;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+footer{
+	width: 100%;
+	min-height: 80pt;
+	padding: 20pt;
+	text-align: center;
+}
