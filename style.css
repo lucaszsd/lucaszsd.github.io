@@ -39,12 +39,13 @@ div.menu{
 
 div.project{
 	margin: auto;
-	min-width: 100pt;
+	width: 100pt;
 	min-height: 70pt;
-	background-color: #CBF3F0;
+	background-color: #EEEEEE;
 	padding: 15pt;
 	float: left;
 	border-bottom: 5pt solid #2EC4B6;
+
 }
 
 div.project:hover{
@@ -53,7 +54,7 @@ div.project:hover{
 	-webkit-transition:0.25s ease all;
 }
 
-div.javascript{
+div.JavaScript{
 	border-bottom: 5pt solid #ffd600;
 }
 
@@ -61,17 +62,25 @@ div.cplusplus{
 	border-bottom: 5pt solid #2962ff;
 }
 
-div.java{
+div.Java{
 	border-bottom: 5pt solid #d50000;
 }
 
-div.python{
+div.Python{
 	border-bottom: 5pt solid #1a237e;
 }
 
-div.html{
+div.HTML{
 	border-bottom: 5pt solid #dd2c00;
 }
+
+div.description{
+	background-color: #CCC;
+	padding: 5pt;
+	color: #0E273C;
+	text-align: center;
+}
+
 
 ul{
 	list-style: none;
