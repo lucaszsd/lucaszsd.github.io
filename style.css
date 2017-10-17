@@ -19,7 +19,7 @@ div.head{
 div.content{
 	margin: auto;
 	width: 900pt;
-	min-height: 300pt;
+	height: 300pt;
 	padding: 20pt;
 	background-color: #FFF;
 	align-content: center;
@@ -40,12 +40,25 @@ div.menu{
 div.project{
 	margin: auto;
 	width: 100pt;
-	min-height: 70pt;
+	height: 140pt;
 	background-color: #EEEEEE;
 	padding: 15pt;
 	float: left;
+	text-align: center;
 	border-bottom: 5pt solid #2EC4B6;
 
+}
+
+
+h4.description{
+	color: #000;
+	padding: 0pt;
+}
+
+h4.language{
+	color: #000;
+	padding: 0pt;
+	margin-top: -15pt;
 }
 
 div.project:hover{
@@ -71,12 +84,13 @@ div.Python{
 }
 
 div.HTML{
-	border-bottom: 5pt solid #dd2c00;
+	border-bottom: 5pt solid #aa00ff;
 }
 
 div.description{
 	background-color: #CCC;
 	padding: 5pt;
+	margin-top: 10pt;
 	color: #0E273C;
 	text-align: center;
 }
